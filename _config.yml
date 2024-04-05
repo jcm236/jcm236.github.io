@@ -1,15 +1,15 @@
 # Site Settings
 lang: en
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+title: Jcm236
+tagline: Jcm236
+email: johnchristi236@gmail.com
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+  This site is being renovated please visit later
+baseurl: "/"
+url: "jcm236.github.io"
 permalink: pretty
 #favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
+
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
 #fixed_navbar: top
@@ -18,12 +18,6 @@ gh_sponsor: chrisrhymes
 paginate: 5
 paginate_path: "/blog/page:num"
 
-# Disqus Comments
-disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  # shortname: my_disqus_shortname
-  shortname: csrhymes
 
 
 plugins:
@@ -43,7 +37,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  
 include: ['.well-known']
+
 livereload: true
 
 sass:
@@ -64,7 +60,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "John Christi Monteiro"
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
