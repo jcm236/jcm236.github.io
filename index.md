@@ -5,6 +5,6 @@ layout: page
 show_sidebar: false
 hide_hero: false
 hero_link: /site
-hero_link_text: Click Me
+hero_link_text: Click Me for an epic poem
 ---
-# While you wait, here's a [video](https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=17s) to entertain you 
+<audio src=n.mp3><audio>
