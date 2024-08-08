@@ -1,14 +1,18 @@
-<style>
-.redClass {
-    color: red;
-}
 
-.yellowClass {
-    color: yellow;
-}
-</style>
-
-<div id="element1">This is a test</div>
+<svg width="100" height="20" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="a" x2="0" y2="100%%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".2"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <rect id="bg" rx="4" x="0" width="100" height="20" fill="black"/>
+  <rect id="bar" rx="4" x="0" width="100" height="20" fill="green"/>
+  
+  <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+    <text id="text" x="45.0" y="14">
+      100%
+    </text>
+  </g>
+</svg>
 
 <script>
 function getQueryVariable(variable) {
@@ -23,9 +27,20 @@ function getQueryVariable(variable) {
 }
 
 if(getQueryVariable("theme") == "red") {
-    document.getElementById("element1").className = "redClass";
+    document.getElementById("bar").setAttribute("fill","red");
 } else if(getQueryVariable("theme") == "yellow") {
-    document.getElementById("element1").className = "yellowClass";
+    document.getElementById("bar").setAttribute("fill","yellow");
 }
 
 </script>
+
+
+
+
+
+
+
+
+
+
+
