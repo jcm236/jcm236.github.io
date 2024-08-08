@@ -12,8 +12,6 @@
       100%
     </text>
   </g>
-</svg>
-
 <script>
 function getQueryVariable(variable) {
    var query = window.location.search.substring(1);
@@ -33,6 +31,9 @@ if(getQueryVariable("theme") == "red") {
 }
 
 </script>
+</svg>
+
+
 
 
 
