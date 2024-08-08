@@ -11,11 +11,10 @@
       100%
     </text>
   </g>
-</svg>
-<script> 
-    window.onload = function exampleFunction() {
+  <script type="text/javascript"><![CDATA[
        const urlParams = new URLSearchParams(window.location.search); 
        document.getElementById("bg").setAttribute("width", urlParams.get("progress"));
-    }
-</script>
+]]></script>
+</svg>
+
 
