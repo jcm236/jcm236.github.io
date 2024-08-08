@@ -4,7 +4,7 @@
     <stop offset="1" stop-opacity=".1"/>
   </linearGradient>
   <rect id="bg" rx="4" x="0" width="100" height="20" fill="var(--bgcolor black);"/>
-  <rect id="bar" rx="4" x="0" width="var(--progress);" height="20" fill="var(--color green);"/>
+  <rect id="bar" rx="4" x="0" style="width: var(--progress); height: 20 fill: var(--color green);"/>
   
   <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
     <text id="text" x="45.0" y="14">
